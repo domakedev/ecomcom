@@ -34,6 +34,31 @@ export const Section = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+
+  ::-webkit-scrollbar:vertical {
+    width:15px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 20px;
+    border: 2px solid #EFF0F6;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 20px;  
+}
+
+::-webkit-scrollbar-track {
+ 
+    background: #ae99ef;
+    border-radius: 20px;
+
+}
 `;
 
 export const Title = styled.h2`

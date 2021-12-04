@@ -31,7 +31,8 @@ const PlateCard = ({ plateName, platePrice, plateImg }) => {
 
   useEffect(() => {
 
-    const repetido = cart.find((e) => e.plateName == plate.plateName);
+    const repetido = cart.find((e) => e.plateName === plate.plateName);
+    
     let arrModifyQ = [];
 
     if (repetido) {
@@ -47,6 +48,7 @@ const PlateCard = ({ plateName, platePrice, plateImg }) => {
         setCart([...cart, plate]);
     }
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [plate]);
 
   return (

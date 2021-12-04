@@ -12,7 +12,7 @@ import { useStateCart } from "../context/CartContext";
 import PlateCart from "./PlateCart";
 
 const Cart = () => {
-  const { cart, setCart } = useStateCart();
+  const { cart } = useStateCart();
 
   const [precioFinal, SetPrecioFinal] = useState({
     subTotal: 0,

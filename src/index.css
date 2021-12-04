@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
 :root{
   --section-bcc: #EFF0F6;
+}
+
+html{
+  font-size: 62.5%;
 }
 
 body {

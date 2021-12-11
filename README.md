@@ -3,7 +3,7 @@
 
 # Live Version
 
-Hosting in Netlify [Create React App](https://ecomcom-cguevara.netlify.app/).
+Hosting in Netlify [Live Website](https://ecomcom-cguevara.netlify.app/).
 
 # Getting Started with Create React App
 
